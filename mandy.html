@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title of the document</title>
+
+    <style type="text/css">
+        body {
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+        }
+
+        .topBox,
+        .bottomBox,
+        .leftBox,
+        .rightBox {
+            position: absolute;
+        }
+
+        .topBox,
+        .bottomBox {
+            height: 10vh;
+            width: 100vw;
+            background-color: grey;
+        }
+
+        .leftBox,
+        .rightBox {
+            width: 10vw;
+            height: 80vh;
+            background-color: grey;
+        }
+
+        .topBox {
+            top: 0;
+            left: 0;
+        }
+
+        .leftBox {
+            top: 10vh;
+            left: 0;
+        }
+
+        .rightBox {
+            right: 0;
+            top: 10vh;
+        }
+
+        .bottomBox {
+            bottom: 0;
+            left: 0;
+        }
+
+        .logo {
+            height: 10vh;
+            width: auto;
+            padding-left: 10vw;
+        }
+
+        .container {
+            position: absolute;
+            top: 10vh;
+            left: 10vw;
+            width: 80vw;
+        }
+
+        .img-container {
+            margin: auto;
+            width: 1000px;
+            position: relative;
+        }
+
+        .container-01 {
+            width: 35%;
+            height: 100%;
+        }
+
+        .container-02 {
+            width: 30%;
+            height: 100%;
+        }
+
+        .container-03 {
+            width: 35%;
+            height: 100%;
+        }
+
+        .container-04 {
+            width: 50%;
+            height: 100%;
+        }
+
+        .container-05 {
+            width: 50%;
+            height: 100%;
+        }
+
+        .img-01 {
+            width: 100%;
+        }
+
+        .img-02 {
+            width: 100%;
+        }
+
+        .img-03 {
+            width: 100%;
+        }
+
+        .img-04 {
+            width: 100%;
+        }
+
+        .img-05 {
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="topBox">
+        <img class="logo" src="mandy-dott-logo.png">
+    </div>
+    <div class="leftBox"></div>
+    <div class="container">
+        <div class="img-container">
+            <div class="container-01">
+                <img class="img-01" src="http://via.placeholder.com/320x240">
+            </div>
+            <div class="container-02">
+                <img class="img-02" src="http://via.placeholder.com/240x320">
+            </div>
+            <div class="container-03">
+                <img class="img-03" src="http://via.placeholder.com/320x240">
+            </div>
+            <div class="container-04">
+                <img class="img-04" src="http://via.placeholder.com/320x240">
+            </div>
+            <div class="container-05">
+                <img class="img-05" src="http://via.placeholder.com/240x320">
+            </div>
+        </div>
+    </div>
+    <div class="rightBox"></div>
+    <div class="bottomBox"></div>
+</body>
+
+</html>
